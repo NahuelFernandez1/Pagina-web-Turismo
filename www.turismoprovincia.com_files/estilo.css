@@ -1,0 +1,56 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#contrainer{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+
+}
+
+header{
+    background: whitesmoke;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float:left;
+    width: 100%;
+    min-height: 500px;
+    background: white;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: bottom 10px; 
+   
+}
